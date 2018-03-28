@@ -1,0 +1,200 @@
+
+.ant-table th{
+	nowrap: nowrap;
+	white-space: nowrap;
+}
+
+
+.ant-table-body table{
+    border-radius: 0 !important;
+    border-top: 0 !important;
+}
+
+.ant-table-bordered td{
+    border-right: 1px solid #e9e9e9;
+}
+
+.db-table {
+    border: 1px solid #e9e9e9;
+    overflow: hidden;
+    height: 100%;
+}
+
+.db-table table{
+border-collapse: separate;
+border-spacing: 0;
+text-align: left;
+border-radius: 4px 4px 0 0;
+table-layout:fixed;
+}
+
+.db-table th{
+    nowrap: nowrap;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-text-overflow: ellipsis;
+}
+
+.db-table-bordered td {
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.db-table-bordered th {
+    border-right: 1px solid #e9e9e9;
+}
+
+.db-table-bordered .db-table-header{
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.db-table-colume-sizer {
+    height: 58px;
+    width: 3px;
+    border: 0;
+
+    float: right;
+    margin: -40px -8px -20px 0;
+    cursor:w-resize;
+    z-index:1000;
+    position:relative;    
+}
+
+.db-table-thead th{
+    background: #f7f7f7;
+    font-weight: 500;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    text-align: left;
+    color: rgba(0,0,0,.85);
+    padding: 16px 8px;
+}
+.db-table-header{
+    background:#fcfcfc;
+}
+
+.db-table-cell-nowrap {
+    nowrap: nowrap;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-text-overflow: ellipsis;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-left: -9px !important;
+    margin-right: -8px !important;
+
+}
+    
+.db-table-header-title {
+    nowrap: nowrap;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-text-overflow: ellipsis;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-left: -8px !important;
+    margin-right: -9px !important;
+    position:relative;
+}
+
+.db-table-body {
+    height: 100%;
+    overflow:auto; 
+}
+.db-table-content {
+    display: flex;
+    flex-direction:column;
+    /* padding-top:10px;  */
+    /* padding-bottom:82px;  */
+    height: 100%;
+    /* overflow: auto; */
+}
+.db-table-body table{
+    border-radius: 0 !important;
+    border-top: 0 !important;
+}
+
+.db-table-row td{
+    /* padding: 0 8px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* 在鼠标滑过其之后 */
+.db-table-row:hover{
+    background-color: #ECF6Fd;
+    /* border: 1px solid yellow; */
+}
+
+/* 点击选中之后 */
+.db-table-row-select{
+    background-color: yellow;
+}
+
+.db-table-pagination {
+    /* position: relative; */
+    /* top: -50%; */
+    margin-top: 15px;
+    /* bottom: 10px; */
+    background:#fcfcfc;
+    background-color:rgba(250,250,250,0.5);
+    width: 202px;
+    margin-left: 40%;
+    border-radius: 8px;
+    /* border: 1px solid yellow; */
+}
+
+.db-table-pagination>input{
+    font-size: 20px;
+    top: -5px;
+    width: 50px;
+    height: 40px;
+    color:#0980e0;
+    margin-bottom:-5px;
+    text-align: center;
+}
+
+.db-table-pagination>button{
+    font-size: 20px;
+    color: #0980e0;
+    width: 40px;
+    height: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.db-table-pagination-pagenumber {
+    font-size: 20px;
+    width: 40px;
+    height: 38px;
+
+}
+.db-table-pagination-pagenumber>.ant-select-selection{
+    height: 40px !important;
+    padding-top: 5px;
+    background-color: rgba(140, 133, 133, 0);
+    color: #0980e0;
+}
+.db-table-pagination-pagenumber>.ant-select-selection>div{
+    top: -2px;
+}
+.db-table-pagination-totalpage {
+    font-size: 30px;
+    display: inline-block;
+}
+.db-table-srcoll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

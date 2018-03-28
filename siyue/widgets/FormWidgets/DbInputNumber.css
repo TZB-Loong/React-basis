@@ -1,0 +1,5 @@
+.ant-input-group>.ant-input-number{
+    margin-left:-2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;    
+}

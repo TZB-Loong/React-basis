@@ -1,0 +1,72 @@
+.siyue-todo-item-wrap {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.siyue-todo-item-finished .siyue-line-editor-wrap p {
+    text-decoration: line-through;
+    color:#b4b4b4;
+}
+
+.siyue-todo-item-wrap input {
+    background-color: transparent;
+}
+
+.siyue-todo-item-select {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+
+.siyue-todo-item-wrap .ant-checkbox-wrapper, .siyue-todo-item-wrap .siyue-input, .siyue-todo-item-wrap .siyue-line-editor-wrap {
+    display: table-cell;
+}
+
+.siyue-mentions-wrap {
+    display: table;
+}
+
+.siyue-activity-log-frame .siyue-todo-item-wrap {
+    display: inline-flex;
+}
+
+
+.siyue-mentions-list, .siyue-mentions-input, .siyue-todo-item-wrap .siyue-select {
+    display: table-cell;
+}
+
+.siyue-todo-item-wrap .siyue-line-editor-wrap,  .siyue-todo-item-wrap .siyue-select{
+    border-width: 0 0 1px !important;
+    border-radius: 0 !important;
+}
+
+.siyue-todo-item-wrap .ant-calendar-picker {
+    height: 28px;
+}
+
+.siyue-todo-item-wrap .siyue-line-editor-wrap {
+    min-width: 200px;
+}
+
+.siyue-todo-item-wrap .ant-calendar-picker {
+    padding-left: 5px;
+    
+}
+
+.siyue-todo-item-wrap .ant-calendar-picker-input {
+    border-style: none none solid none;
+    border-radius: 0;
+    height: 28px;
+}
+
+.siyue-todo-item-wrap .ant-calendar-picker-icon {
+    display: none;
+}
+
+.siyue-todo-item-wrap .valuelabel {
+    height: 28px;
+    padding-right: 5px;
+    display: table-cell;
+    
+}
+

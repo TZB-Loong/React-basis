@@ -1,0 +1,139 @@
+.siyue-ui-root {
+    height:100%;
+    width:100%;
+}
+.siyue-ui-root>.ant-spin-nested-loading>.ant-spin-container{
+    height:100%;
+}
+.siyue-ui-root>.ant-spin-nested-loading{
+    height:100%;
+}
+
+.siyue-app, .siyue-app .ant-spin-container, .siyue-app .ant-spin-nested-loading{
+    height: 100%
+}
+
+.siyue-menu-bar {
+    width: 240;
+    position: fixed;
+    z-index: 1000;
+    max-height: 100%;
+    overflow: auto;
+    top:0;
+
+}
+.siyue-tabs {
+    height: 100%;
+    padding-top: 38px;
+}
+
+.siyue-tabs>.ant-tabs-content,.siyue-tabpane,.siyue-tabpane>.ant-spin-nested-loading,.siyue-tabpane>.ant-spin-nested-loading>.ant-spin-container {
+    height:100%;
+}
+.siyue-tabpane{
+    padding-bottom:88px;
+}
+
+.appmark>div>.ant-modal-mask,.ant-modal-wrap {
+    margin-top: 70px;
+}
+.appmark .ant-modal,  .appmark .ant-modal-body {
+    max-height: 80%;
+    min-height: 20%;
+}
+
+.appmark .ant-modal-content {
+    max-height: 80%;
+    min-height: 20%;
+}
+
+.appmark .ant-modal-mask {
+    z-index: 900 ;
+}
+
+.appmark .ant-modal-wrap {
+    z-index: 900 ;
+}
+
+.ant-input-group .ant-input {
+    float:none !important;
+}
+
+.siyue-field-required>.siyue-field-label {
+    color: rgba(178,34,34,255); 
+}
+
+.siyue-field-wrapped-label:hover>.siyue-field-label {
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #33bbff;
+}
+
+.siyue-field-focused>.siyue-field-label {
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #0099e6;
+}
+
+
+.siyue-field-wrapper:hover>.siyue-field-value {
+    border-color: #33bbff; 
+}
+
+.siyue-field-focused>.siyue-field-value {
+    border-color: #0099e6; 
+}
+
+
+.siyue-field-wrapper:hover .dbresponseinput-path, .siyue-field-wrapper:hover .siyue-input {
+    border-color: #33bbff;
+}
+
+.siyue-field-focused .dbresponseinput-path, .siyue-field-focused .siyue-input {
+    border-color: #0099e6;
+}
+
+
+.siyue-field-wrapped-label .ant-input,.siyue-field-wrapped-label .ant-select-selection, .siyue-field-wrapped-label .siyue-input {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left-width:0;
+}
+
+.siyue-field-wrapper:hover .ant-input, .siyue-field-wrapper:hover .ant-select-selection{
+    border-color: #33bbff; 
+}
+
+.siyue-field-wrapped-label .ant-switch {
+    border-left-width:0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: none;
+    height:28px;
+    min-width: 50px;
+}
+
+
+
+.siyue-field-wrapped-label .ant-switch:after {
+    height: 24px;
+    width: 24px;
+}
+
+.siyue-field-wrapped-label .ant-switch-checked:after {
+    margin-left: -24px;
+}
+
+.siyue-field-wrapped-label input, .siyue-field-wrapped-label .ant-select-selection {
+    box-shadow: none;
+}
+
+.siyue-field-wrapped-label .ant-input-number, .siyue-field-wrapped-label .ant-select-selection{
+    border-left-width:0;
+}
+
+.siyue-field-wrapper input {
+    width: 100% !important;
+}

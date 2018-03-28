@@ -1,0 +1,17 @@
+
+.siyue-input {
+    height: 28px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(217, 217, 217);
+    padding: 3px 3px 0px 6px;
+    min-width: 30px;
+    white-space: nowrap;
+    outline: none;
+    transition: all .3s;
+}
+
+.siyue-field-value {
+    box-shadow: none !important;
+}

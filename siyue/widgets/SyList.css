@@ -1,0 +1,34 @@
+.sy-list {
+    z-index: 1;
+}
+
+.sy-list li {
+    z-index: 1;
+}
+
+.sy-list-check {
+    display: inline-block;
+    width: 6px;
+    height:3px;
+    background: #49a9ee;
+    line-height: 0;
+    font-size:0;
+    vertical-align: middle;
+    transform: rotate(45deg);
+    margin-right: 8px;
+}
+
+.sy-list-check:after {
+    content:'/';
+    display:block;
+    width: 12px;
+    height:3px;
+    background: #49a9ee;
+    border-radius: 3px;
+    transform: rotate(-90deg) translateY(-50%) translateX(50%);
+}
+
+.sy-list .ant-dropdown-menu-item:focus {
+    outline: none;
+    background: #ecf6fd;
+}

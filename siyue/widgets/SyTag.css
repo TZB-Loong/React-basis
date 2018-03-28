@@ -1,0 +1,20 @@
+.siyue-tag-close {
+    display: inline-block;
+    width: 10px;
+    height:1px;
+    background: #a0a0a0;
+    line-height: 0;
+    font-size:0;
+    vertical-align: middle;
+    transform: rotate(45deg);
+    margin-left: 2px;
+}
+
+.siyue-tag-close:after {
+    content:'/';
+    display:block;
+    width: 10px;
+    height:1px;
+    background: #a0a0a0;
+    transform: rotate(-90deg);
+}

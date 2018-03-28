@@ -1,0 +1,41 @@
+.siyue-select {
+    display: table;
+    white-space: pre-wrap;
+    max-height: 100px;
+    overflow: auto;
+    width: 100%;
+
+}
+/* .siyue-Syselect{
+    display: inline-block;
+   
+} */
+
+.siyue-select:hover {
+    border-bottom-color: #108ee9;
+}
+
+.siyue-select input {
+    margin-left: -5px;
+    border-width: 0;
+    white-space: pre-wrap;
+    outline: none;
+    padding: 0;
+    height: 20px;
+    width: 40px !important;
+}
+.siyue-select-box{
+    max-height: 100px;
+    overflow: auto;
+    /* display: inline-block;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.siyue-selecte-scroll-wrap {
+    position: absolute;
+    display: inline-block;
+    width: 90%;
+    /* overflow: auto; */
+    z-index: 999;
+}

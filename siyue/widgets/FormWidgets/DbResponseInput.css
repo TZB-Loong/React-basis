@@ -1,0 +1,45 @@
+.dbresponseinput-path {
+    width: 1px;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: rgb(217, 217, 217);
+    padding-left: 7px;
+}
+
+.valuelabel .dbresponseinput-path {
+    padding-left: 0;
+}
+
+.valuelabel .dbresponseinput-path {
+    border-style: none;
+}
+
+.valuelabel .dbresponseinput-path-separator:last-child {
+    display:none;
+}
+
+
+.response-line-edit {
+    height: 26px;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: rgb(217, 217, 217);
+    padding-top: 2px;
+    
+}
+
+.dbresponseinput-path-separator {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 0,0,0);
+  border-color: rgb(217, 217, 217);
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  transform:rotateZ(45deg);
+  display:inline-block;
+  margin-right: 5px;
+}

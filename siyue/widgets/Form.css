@@ -1,0 +1,36 @@
+.db_form_an{
+    margin: 0px auto;
+    height: 100%;
+}
+
+.db_form_fa{
+    margin: 0 50px;
+    box-shadow: 0 0 10px 0 black;
+    height: 100%;
+    overflow: auto;
+}
+
+.db_form_so{
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    padding: 10px;
+    /* justify-content:space-around ; */
+}
+
+.db_form_in{
+    width: 40px;
+    background-color: #EEEEEE;
+    outline: none;
+}
+
+.siyue-widget-wrap{
+    flex: 0 0 45%;
+    min-width: 400px;
+     margin: 20px;
+
+}

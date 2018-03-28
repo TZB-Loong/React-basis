@@ -1,0 +1,15 @@
+.siyue-scroll-box-wrap {
+    height: 100%;
+    overflow: auto;
+    margin: 5px;
+}
+
+.siyue-scroll-box-wrap ul {
+    box-shadow: none;
+}
+
+.scrollBoxWrap {
+    height: 100%;
+    overflow: auto;
+}
+

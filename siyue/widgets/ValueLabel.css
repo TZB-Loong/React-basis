@@ -1,0 +1,14 @@
+.valuelabel {
+height: 28px;
+vertical-align: middle;
+padding-top: 5px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: rgba(217,217,217,255);
+padding-left: 7px;
+transition: all .3s;
+}
+
+.valuelabel:hover {
+    border-bottom-color: #108ee9;
+}

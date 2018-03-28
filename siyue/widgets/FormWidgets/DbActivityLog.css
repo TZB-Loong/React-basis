@@ -1,0 +1,52 @@
+.siyue-activity-log-note {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;    
+    padding: 2px;
+    border: 1px solid #efefef;
+    border-top: none;
+    white-space: pre;
+}
+
+.siyue-activity-log-avatar {
+    height: 18px;
+    width: 18px;
+}
+
+.siyue-activity-log-frame .ant-steps-title {
+    display: inline-block;
+    width: 100%;
+    background-color: #eee;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+    margin-bottom: 0 !important;
+    border: 1px solid #efefef;
+    border-bottom: none;
+    
+}
+
+.siyue-activity-log-new{
+    border-radius: 50%;
+}
+
+.siyue-activity-log-frame .siyue-activity-log-title .ant-btn{
+    height: 18px;
+    width: 18px;
+    padding-left: 2px !important;
+    border-radius: 50%;
+}
+
+.siyue-activity-log-frame .ant-steps-step:hover .ant-steps-title{
+    background-color: #dfdfdf;
+    transition: all .3s;
+}
+
+.siyue-activity-log-frame .ant-steps-status-process .siyue-activity-log-note{
+    border: 1px solid #33bbff;
+    border-top: none;
+}
+
+.siyue-activity-log-frame .ant-steps-status-process .ant-steps-title{
+    border: 1px solid #33bbff;
+    border-bottom: none;
+
+}

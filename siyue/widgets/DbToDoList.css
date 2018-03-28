@@ -1,0 +1,41 @@
+.siyue-DbToDoList-Box{
+height: 40px;
+ line-height: 40px;
+}
+.siyue-DbToDoList-CheckBox{
+    display: inline-block;
+    margin-top: 20px;
+}
+.siyue-DbToDoList-checked{
+    cursor: pointer;
+    background-color: #ECF6FD;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #108EE9;
+}
+.siyue-DbToDoList-checkout{
+    cursor: pointer;
+    background-color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: rgba(0,0,0,0.65);
+}
+.siyue-DbToDoList-check{
+    margin-right: 10px;
+}
+.siyue-DbToDoList-flex{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+}
+.siyue-DbToDoList-flexm{
+    width: 80%;
+    height: 100%
+}
+.siyue-DbToDoList-flexc{
+    border-bottom: 1px solid #E9E9E9;
+}
