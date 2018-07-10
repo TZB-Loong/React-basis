@@ -9,9 +9,6 @@ import {createAction} from 'redux-actions';
 // console.log('request.get',request.get)
 function getLogin(){  
     //在使用代理之后,就可以解决跨域请求的问题,这个大家都是需要理解的
-   //年终的问题也就是现在的问题了,其实不用这个明确的来了解这个事情,也就是现在就是你的忌日而不是你的生日
-   //以前看上去觉得很提气的事,现在觉得没有一点劲,以前觉得很厉害的事,现在觉得也不过如此了,嘿嘿
-   //以前很厉害的事,现在觉得其实也不会很厉害的啊,我还是以为我们要好好的了解这个事情,其实不会烦的,也就是那样了
     return request.get('/php_oprea/userApi.php',null,(data)=>{
             console.log(data,'----data---')
             if(data.ok){
