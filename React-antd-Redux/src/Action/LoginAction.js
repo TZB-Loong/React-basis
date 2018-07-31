@@ -19,8 +19,7 @@ function getLogin(){
             }
             // data.ok?dispatch(getSpreadSuccess(data.data)):null
     },(error)=>{
-        
-        //怎么老是一样的呢,这个问题,和这个不是很简单就了解的事情了吗
+    
 
         console.log('ay');
         console.log(error);
